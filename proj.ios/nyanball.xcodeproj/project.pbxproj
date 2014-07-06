@@ -154,6 +154,7 @@
 		2A4BAC211916A43A008802DC /* flipper_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A4BAC061916A43A008802DC /* flipper_left.png */; };
 		2A4BAC221916A43A008802DC /* flipper_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A4BAC071916A43A008802DC /* flipper_right.png */; };
 		2A4BAC2B1916A43A008802DC /* nyanball.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A4BAC111916A43A008802DC /* nyanball.plist */; };
+		2A4BAC36191E2EC7008802DC /* GB2ShapeCache-x.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A4BAC34191E2EC7008802DC /* GB2ShapeCache-x.cpp */; };
 		2A7A03891916990100BCE156 /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A7A03871916990100BCE156 /* GameScene.cpp */; };
 		7855E0E1153FEF240059DD9A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7855E0DF153FEF240059DD9A /* Default.png */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
@@ -476,6 +477,8 @@
 		2A4BAC061916A43A008802DC /* flipper_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flipper_left.png; sourceTree = "<group>"; };
 		2A4BAC071916A43A008802DC /* flipper_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flipper_right.png; sourceTree = "<group>"; };
 		2A4BAC111916A43A008802DC /* nyanball.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = nyanball.plist; sourceTree = "<group>"; };
+		2A4BAC34191E2EC7008802DC /* GB2ShapeCache-x.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "GB2ShapeCache-x.cpp"; sourceTree = "<group>"; };
+		2A4BAC35191E2EC7008802DC /* GB2ShapeCache-x.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GB2ShapeCache-x.h"; sourceTree = "<group>"; };
 		2A7A03871916990100BCE156 /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameScene.cpp; path = ../Classes/GameScene.cpp; sourceTree = "<group>"; };
 		2A7A03881916990100BCE156 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = ../Classes/GameScene.h; sourceTree = "<group>"; };
 		2AC4120A19166D270045F286 /* AppMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMacros.h; sourceTree = "<group>"; };
@@ -1006,6 +1009,8 @@
 		15AA9C4015B7EC450033D6C2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2A4BAC34191E2EC7008802DC /* GB2ShapeCache-x.cpp */,
+				2A4BAC35191E2EC7008802DC /* GB2ShapeCache-x.h */,
 				1AFAF8B316D35DE700DB1158 /* AppDelegate.cpp */,
 				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
 				2AC4120A19166D270045F286 /* AppMacros.h */,
@@ -1280,6 +1285,7 @@
 				15A3DA3B1682F826002FB0C5 /* CCLabelBMFontLoader.cpp in Sources */,
 				15A3DA3C1682F826002FB0C5 /* CCLabelTTFLoader.cpp in Sources */,
 				15A3DA3D1682F826002FB0C5 /* CCLayerColorLoader.cpp in Sources */,
+				2A4BAC36191E2EC7008802DC /* GB2ShapeCache-x.cpp in Sources */,
 				15A3DA3E1682F826002FB0C5 /* CCLayerGradientLoader.cpp in Sources */,
 				15A3DA3F1682F826002FB0C5 /* CCLayerLoader.cpp in Sources */,
 				15A3DA401682F826002FB0C5 /* CCMenuItemImageLoader.cpp in Sources */,
